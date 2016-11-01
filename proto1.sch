@@ -1,0 +1,302 @@
+EESchema Schematic File Version 2
+LIBS:proto1-rescue
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:conn
+LIBS:proto1-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Q_NMOS_SGD Q1
+U 1 1 57EDE241
+P 3450 4000
+F 0 "Q1" H 3750 4050 50  0000 R CNN
+F 1 "7000" H 3850 3950 50  0000 R CNN
+F 2 "TO92:TO-92_Inline_Narrow_Oval" H 3650 4100 29  0001 C CNN
+F 3 "" H 3450 4000 60  0000 C CNN
+	1    3450 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D5
+U 1 1 57EDEE0C
+P 2325 3940
+F 0 "D5" H 2325 4040 50  0000 C CNN
+F 1 "4007" H 2325 3840 50  0000 C CNN
+F 2 "Discret:D4" H 2325 3940 60  0001 C CNN
+F 3 "" H 2325 3940 60  0000 C CNN
+	1    2325 3940
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_01X02 P4
+U 1 1 57EDF025
+P 1650 3975
+F 0 "P4" H 1650 4125 50  0000 C CNN
+F 1 "BAT" V 1750 3975 50  0000 C CNN
+F 2 "MyLib:bat-LA" H 1650 3975 60  0001 C CNN
+F 3 "" H 1650 3975 60  0000 C CNN
+	1    1650 3975
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_01X02 P2
+U 1 1 57EE0407
+P 1050 3950
+F 0 "P2" H 1050 4100 50  0000 C CNN
+F 1 "BR-LED" V 1150 3950 50  0000 C CNN
+F 2 "Headers:Pin_Header_Straight_1x02" H 1050 3950 60  0001 C CNN
+F 3 "" H 1050 3950 60  0000 C CNN
+	1    1050 3950
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R1
+U 1 1 57EE098D
+P 1400 3350
+F 0 "R1" V 1480 3350 50  0000 C CNN
+F 1 "10" V 1400 3350 50  0000 C CNN
+F 2 "Discret:R3" V 1330 3350 30  0001 C CNN
+F 3 "" H 1400 3350 30  0000 C CNN
+	1    1400 3350
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D2
+U 1 1 57EE2182
+P 3250 3150
+F 0 "D2" H 3225 3050 50  0000 C CNN
+F 1 "LED" H 3375 3050 50  0000 C CNN
+F 2 "Headers:Pin_Header_Straight_1x02" H 3250 3150 60  0001 C CNN
+F 3 "" H 3250 3150 60  0000 C CNN
+	1    3250 3150
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D3
+U 1 1 57EE2285
+P 3550 3150
+F 0 "D3" H 3525 3050 50  0000 C CNN
+F 1 "LED" H 3675 3050 50  0000 C CNN
+F 2 "Headers:Pin_Header_Straight_1x02" H 3550 3150 60  0001 C CNN
+F 3 "" H 3550 3150 60  0000 C CNN
+	1    3550 3150
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D4
+U 1 1 57EE2465
+P 3850 3150
+F 0 "D4" H 3800 3050 50  0000 C CNN
+F 1 "LED" H 3950 3050 50  0000 C CNN
+F 2 "Headers:Pin_Header_Straight_1x02" H 3850 3150 60  0001 C CNN
+F 3 "" H 3850 3150 60  0000 C CNN
+	1    3850 3150
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D1
+U 1 1 57EE2E16
+P 2925 3150
+F 0 "D1" H 2900 3050 50  0000 C CNN
+F 1 "LED" H 3050 3050 50  0000 C CNN
+F 2 "Headers:Pin_Header_Straight_1x02" H 2925 3150 60  0001 C CNN
+F 3 "" H 2925 3150 60  0000 C CNN
+	1    2925 3150
+	0    1    1    0   
+$EndComp
+$Comp
+L R R2
+U 1 1 57EE35CE
+P 3950 3575
+F 0 "R2" V 4030 3575 50  0000 C CNN
+F 1 "47" V 3950 3575 50  0000 C CNN
+F 2 "Discret:R3" V 3880 3575 30  0001 C CNN
+F 3 "" H 3950 3575 30  0000 C CNN
+	1    3950 3575
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_01X03 P3
+U 1 1 57ECFCCB
+P 2840 3840
+F 0 "P3" H 2840 4040 50  0000 C CNN
+F 1 "Solar panel" V 2940 3840 50  0000 C CNN
+F 2 "Connector:BARREL_JACK" H 2840 3840 60  0001 C CNN
+F 3 "" H 2840 3840 60  0000 C CNN
+	1    2840 3840
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X05 P1
+U 1 1 57ED0478
+P 2525 3025
+F 0 "P1" H 2525 3325 50  0000 C CNN
+F 1 "sw" V 2625 3025 50  0000 C CNN
+F 2 "" H 2525 3025 60  0000 C CNN
+F 3 "" H 2525 3025 60  0000 C CNN
+	1    2525 3025
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND-RESCUE-proto1 #PWR01
+U 1 1 57ED0767
+P 2725 3225
+F 0 "#PWR01" H 2725 3225 30  0001 C CNN
+F 1 "GND" H 2725 3155 30  0001 C CNN
+F 2 "" H 2725 3225 60  0000 C CNN
+F 3 "" H 2725 3225 60  0000 C CNN
+	1    2725 3225
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1850 4025 1850 4350
+Wire Wire Line
+	3550 4350 3550 4200
+Wire Wire Line
+	1250 4350 3550 4350
+Wire Wire Line
+	1850 3925 1850 3500
+Wire Wire Line
+	1850 3500 2525 3500
+Wire Wire Line
+	2525 3500 2525 3225
+Wire Wire Line
+	1250 3350 1250 3900
+Wire Wire Line
+	1250 4000 1250 4350
+Connection ~ 1850 4350
+Wire Wire Line
+	1550 3350 2425 3350
+Wire Wire Line
+	2625 3225 2625 3475
+Wire Wire Line
+	2625 3475 3850 3475
+Wire Wire Line
+	2925 3475 2925 3350
+Wire Wire Line
+	3025 2950 3025 3425
+Wire Wire Line
+	3025 3425 3950 3425
+Wire Wire Line
+	3350 2950 3350 3425
+Wire Wire Line
+	3650 2950 3650 3425
+Connection ~ 3350 3425
+Wire Wire Line
+	3950 3425 3950 2950
+Connection ~ 3650 3425
+Wire Wire Line
+	3850 3475 3850 3350
+Connection ~ 2925 3475
+Wire Wire Line
+	3250 3350 3250 3475
+Connection ~ 3250 3475
+Wire Wire Line
+	3550 3350 3550 3475
+Connection ~ 3550 3475
+Wire Wire Line
+	3025 2950 2925 2950
+Wire Wire Line
+	3350 2950 3250 2950
+Wire Wire Line
+	3550 2950 3650 2950
+Wire Wire Line
+	3950 2950 3850 2950
+Wire Wire Line
+	3950 3725 3950 3800
+Wire Wire Line
+	3950 3800 3550 3800
+Wire Wire Line
+	2640 3840 2640 4125
+Wire Wire Line
+	1850 3740 2640 3740
+Connection ~ 1850 3740
+Wire Wire Line
+	2640 3940 2475 3940
+Wire Wire Line
+	2640 4125 3250 4125
+Wire Wire Line
+	3250 4125 3250 4000
+Connection ~ 2640 3940
+Wire Wire Line
+	2175 3940 2175 4350
+Connection ~ 2175 4350
+Text Label 1940 3500 0    60   ~ 0
++BAT
+$Comp
+L GND-RESCUE-proto1 #PWR02
+U 1 1 57ED2E38
+P 2175 4415
+F 0 "#PWR02" H 2175 4415 30  0001 C CNN
+F 1 "GND" H 2175 4345 30  0001 C CNN
+F 2 "" H 2175 4415 60  0000 C CNN
+F 3 "" H 2175 4415 60  0000 C CNN
+	1    2175 4415
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2175 4415 2175 4345
+$Comp
+L PWR_FLAG #FLG03
+U 1 1 57ED3153
+P 1250 4350
+F 0 "#FLG03" H 1250 4445 50  0001 C CNN
+F 1 "PWR_FLAG" H 1250 4530 50  0000 C CNN
+F 2 "" H 1250 4350 60  0000 C CNN
+F 3 "" H 1250 4350 60  0000 C CNN
+	1    1250 4350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND-RESCUE-proto1 #PWR04
+U 1 1 57ED3493
+P 2325 3225
+F 0 "#PWR04" H 2325 3225 30  0001 C CNN
+F 1 "GND" H 2325 3155 30  0001 C CNN
+F 2 "" H 2325 3225 60  0000 C CNN
+F 3 "" H 2325 3225 60  0000 C CNN
+	1    2325 3225
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2425 3350 2425 3225
+$EndSCHEMATC
